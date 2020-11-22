@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #cae1e2;
+   
 
 }
 header{
@@ -47,11 +47,13 @@ a:hover{
 }
 form{
     
-    height: 330px;
-    width: 300px;
-   background-color: #ea8f72;
+    height: 362px;
+    width: 295px;
+    background-color: #cae1e2;
     margin: 40px auto;
     border-radius: 15px;
+    
+
     
    
   
@@ -60,6 +62,10 @@ form{
 .form{
     padding: 5px;
     margin: 10px;
+    border: none;
+    border-radius: 8px;
+    height: 36px;
+    width: 269px;
     
 
 }
@@ -70,6 +76,10 @@ form{
     background-color: blue;
     border-radius: 4px;
     border: none;
+    border-radius: 8px;
+    height: 36px;
+    width: 269px;
+    
 }
 .submit:hover{
     background:#1b9bff;
