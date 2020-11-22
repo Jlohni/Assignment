@@ -47,11 +47,12 @@ a:hover{
 }
 form{
     
-    height: 362px;
+    height: 300px;
     width: 295px;
     background-color: #cae1e2;
     margin: 40px auto;
     border-radius: 15px;
+    padding-top: 40px;
     
 
     
@@ -66,6 +67,7 @@ form{
     border-radius: 8px;
     height: 36px;
     width: 269px;
+    
     
 
 }
