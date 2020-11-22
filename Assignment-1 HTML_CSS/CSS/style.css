@@ -38,10 +38,12 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 4px;
     text-transform: uppercase;
+  
 }
 a.active, a:hover{
     background:#1b9bff;
     transition: .5s;
+    
 
 }
 /* .checkbtn{
@@ -115,11 +117,14 @@ a.active, a:hover{
     border-radius: 8px;
     margin-top: 25px;
     font-weight: bold;
+    border: none;
+    padding: 5px;
     
 }
 .sing:hover{
     background-color: #1b9bff;
     padding: 4px;
+    
 }
 span{
     color: red;
@@ -143,13 +148,14 @@ article h3{
     height: 40px;
     width: 30%;
     padding: 10px;
-    margin-left: 25px;
+    margin-left: 30px;
     text-align: center;
     margin-top: 20px;
     border-radius: 10px;
     background-color: blue;
     color: white;
     font-weight: solid;
+    
 }
 h3:hover{
     background-color: #1b9bff ;
