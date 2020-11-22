@@ -42,6 +42,7 @@ nav ul li a{
 }
 a.active, a:hover{
     background:#1b9bff;
+    /* text-decoration: underline; */
     transition: .5s;
     
 
@@ -113,18 +114,25 @@ a.active, a:hover{
 }
 .sing{
     background-color: blue;
-    font-size: 34px;
-    color: white;
+ 
     border-radius: 8px;
     margin-top: 25px;
     font-weight: bold;
     border: none;
-    padding: 5px;
+    
     
 }
-.sing:hover{
+.sing a{
+    font-size: 34px;
+    color: white;
+    padding: 6px;
+
+}
+.sing a:hover{
     background-color: #1b9bff;
     padding: 4px;
+    border-radius: 8px;
+    transition: .8s;
     
 }
 span{
