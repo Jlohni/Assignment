@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cae1e2;
 
 }
 header{
@@ -43,55 +44,36 @@ nav ul li a{
 a:hover{
     background:#1b9bff;
     transition: .5s;
+}
+form{
     
-}
-#inntro{
-    border: 2px solid black;
-    height: 800px;
-    width: 600px;
-   margin:40px auto;
-}
- 
-#inntro img{
-    height: 300px;
+    height: 330px;
     width: 300px;
+   background-color: #ea8f72;
     margin: 40px auto;
-    display: block;
-    border: 1px solid black;
-    border-radius: 139px;
-
-}
-#inntro h2{
-    text-align: center;
-    font-size: 42px;
-    color: orangered;
-}
-.intro{
-    color:black;
-    text-align: center;
-    margin: 40px auto;
-    font-size: 20px;
-    font-weight: solid;
-}
-button{
-    border: none;
-    background-color: blue;
-    margin: 50px auto;
-    display:block;
-    border-radius: 10px;
+    border-radius: 15px;
+    
+   
+  
     
 }
-button a{
-    color: white;
+.form{
     padding: 5px;
-    text-align: center;
-    font-size: 20px;
+    margin: 10px;
     
-}
-button a:hover{
 
+}
+.submit{
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    border: none;
+}
+.submit:hover{
     background:#1b9bff;
     transition: .5s;
-    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
 }
-
