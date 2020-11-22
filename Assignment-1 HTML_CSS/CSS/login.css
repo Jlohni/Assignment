@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+header{
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    /* padding: 0 100px; */
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color:white;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  
+}
+a:hover{
+    background:#1b9bff;
+    transition: .8s;
+}
+#login{
+    /* border:1px solid black; */
+    height: 220px;
+    width: 280px;
+    padding: 10px;
+    margin: 150px auto;
+    background-color: #cae1e2;
+    border-radius: 20px;
+   
+}
+.log{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.log:hover{
+    border-radius: 8px;
+    padding: 5px;
+    transition: .8s;
+}
+.submit{
+    width: 188px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.submit:hover{
+    background:#1b9bff;
+    transition: .5s;
+    
+
+}
+h2{
+    
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 header{
@@ -46,6 +46,7 @@ a.active, a:hover{
     
 
 }
+/* try to making responsive website */
 /* .checkbtn{
     font-size: 30px;
     color: white;
