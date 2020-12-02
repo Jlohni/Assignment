@@ -8,6 +8,7 @@ html, body {
 }
 body {
   background: #f1f1f1;
+  
 }
 #root {
   width: 100%;
@@ -21,13 +22,15 @@ body {
 .header {
   font-size: 22px;
   font-weight: bold;
-  font-style: italic;
+  
   color: #f1f1f1;
   background: #3367d6;
-  padding: 40px;
+  padding: 10px;
+  text-align: center;
 }
+
 /* The note */
-.note {
+.Note {
   color: #adadad;
   padding: 40px;
   margin: 20px;
@@ -38,6 +41,7 @@ body {
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
   transition: transform .2s ease;
+  border-radius: 40px;
 }
 .note:hover {
   transform: scale(1.02);
@@ -65,6 +69,7 @@ body {
 }
 .btn:hover {
   transform: scale(1.2);
+  
 }
 /* Textinput */
 .textInput {
@@ -78,5 +83,6 @@ body {
   outline: none;
   background: #2850a7;
   font-size: 16px;
-  color: #f1f1f1;
+  color: #ffffff;
 }
+
