@@ -1,6 +1,6 @@
 const mongoose = require ('mongoose');
 const { monitorEventLoopDelay } = require('perf_hooks');
-
+//user Schema
 const userSchema = mongoose.Schema({
     username :{
         type : String,
@@ -17,7 +17,7 @@ const userSchema = mongoose.Schema({
     createdOn : {
         type : Date,
         default : true
-    }
+    } 
 });
 
 mongoose.model('users',userSchema);
